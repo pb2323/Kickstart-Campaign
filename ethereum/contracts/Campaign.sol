@@ -26,7 +26,7 @@ contract Campaign {
     Request[] public requests;
     address public manager;
     uint256 public minimumContribution;
-    mapping(address => bool) approvers;
+    mapping(address => bool) public approvers;
     uint256 public approversCount;
 
     modifier restricted() {
