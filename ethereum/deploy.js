@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/campaignFactory.json");
 
 const provider = new HDWalletProvider(
-  "spider outside fox world hip disease cave mechanic scorpion square apple lamp",
-  "https://rinkeby.infura.io/v3/8d6c93f8a12343899af966a5f99c85fa"
+  "PNEMONICS",
+  "PROVIDER"
 );
 
 const web3 = new Web3(provider);
